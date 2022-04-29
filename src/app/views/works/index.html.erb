@@ -1,0 +1,12 @@
+<h1>Works</h1>
+
+<ul>
+    <% @works.each do |w| %>
+    <li>
+        <%= w.id %>
+        <%= w.title %>
+        <%= w.content %>
+        <%= w.created_at %>
+    </li>
+    <% end %>
+</ul>
